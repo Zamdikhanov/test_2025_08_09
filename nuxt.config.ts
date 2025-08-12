@@ -3,6 +3,14 @@ export default defineNuxtConfig({
     compatibilityDate: "2025-07-15",
     devtools: { enabled: true },
 
+    app: {
+        baseURL: "/test_2025_08_09/",
+    },
+    nitro: {
+        preset: "github_pages",
+    },
+    ssr: false,
+
     modules: [
         "@nuxt/eslint",
         "@nuxt/fonts",
