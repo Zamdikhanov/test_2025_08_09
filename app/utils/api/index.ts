@@ -1,3 +1,5 @@
+import dataJson from "./apartments.json";
+
 import type {
     IApartment,
     IApartmentAvailableFiltersRange,
@@ -5,18 +7,19 @@ import type {
     IApiResponseGetApartments,
 } from "~/shared/types/apartment.types";
 
-const API_URL = "http://localhost:3000";
+// const API_URL = "http://localhost:3000";
 
 export const api = {
     getApartments: async (payload: IApiRequestGetApartments) => {
-        return $fetch<IApiResponseGetApartments>(API_URL + "/apartments.json", {
-            method: "GET",
-            params: {
-                ...payload.apartmentSortParams,
-                ...payload.apartmentFilters,
-                page: payload.page,
-            },
-        }).then((response) => {
+        // return $fetch<IApiResponseGetApartments>(API_URL + "/apartments.json", {
+        //     method: "GET",
+        //     params: {
+        //         ...payload.apartmentSortParams,
+        //         ...payload.apartmentFilters,
+        //         page: payload.page,
+        //     },
+        // }).then((response) => {
+        return Promise.resolve(dataJson).then((response) => {
             const limit = 10;
             const startIndex = (payload.page - 1) * limit;
             const endIndex = startIndex + limit;
@@ -96,9 +99,10 @@ export const api = {
     },
 
     getApartmentById: async (id: number) => {
-        return $fetch<{ data: IApartment[] }>(API_URL + `/apartments.json`, {
-            method: "GET",
-        }).then((response) => {
+        // return $fetch<{ data: IApartment[] }>(API_URL + `/apartments.json`, {
+        //     method: "GET",
+        // }).then((response) => {
+        return Promise.resolve(dataJson).then((response) => {
             return response.data.find((apartment) => apartment.id === id);
         });
     },

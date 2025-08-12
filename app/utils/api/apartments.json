@@ -1,0 +1,244 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "1-комнатная №101",
+            "roomCount": 1,
+            "area": 42.6,
+            "floor": 1,
+            "numberOfFloors": 17,
+            "price": 8300000,
+            "image": "/images/apartments/1_room_v1.png"
+        },
+        {
+            "id": 2,
+            "title": "1-комнатная №102",
+            "roomCount": 1,
+            "area": 45,
+            "floor": 1,
+            "numberOfFloors": 17,
+            "price": 8500000,
+            "image": "/images/apartments/1_room_v2.png"
+        },
+        {
+            "id": 3,
+            "title": "2-комнатная №103",
+            "roomCount": 2,
+            "area": 56,
+            "floor": 1,
+            "numberOfFloors": 17,
+            "price": 10900000,
+            "image": "/images/apartments/2_room_v1.png"
+        },
+        {
+            "id": 4,
+            "title": "3-комнатная №104",
+            "roomCount": 3,
+            "area": 81.7,
+            "floor": 1,
+            "numberOfFloors": 17,
+            "price": 14700000,
+            "image": "/images/apartments/3_room_v1.png"
+        },
+        {
+            "id": 5,
+            "title": "2-комнатная №105",
+            "roomCount": 2,
+            "area": 60.6,
+            "floor": 1,
+            "numberOfFloors": 17,
+            "price": 11500000,
+            "image": "/images/apartments/2_room_v2.png"
+        },
+        {
+            "id": 6,
+            "title": "3-комнатная №106",
+            "roomCount": 3,
+            "area": 71.7,
+            "floor": 1,
+            "numberOfFloors": 17,
+            "price": 12700000,
+            "image": "/images/apartments/3_room_v2.png"
+        },
+        {
+            "id": 11,
+            "title": "1-комнатная №201",
+            "roomCount": 1,
+            "area": 42.6,
+            "floor": 2,
+            "numberOfFloors": 17,
+            "price": 8300000,
+            "image": "/images/apartments/1_room_v1.png"
+        },
+        {
+            "id": 12,
+            "title": "1-комнатная №202",
+            "roomCount": 1,
+            "area": 45,
+            "floor": 2,
+            "numberOfFloors": 17,
+            "price": 8500000,
+            "image": "/images/apartments/1_room_v2.png"
+        },
+        {
+            "id": 13,
+            "title": "2-комнатная №203",
+            "roomCount": 2,
+            "area": 56,
+            "floor": 2,
+            "numberOfFloors": 17,
+            "price": 10900000,
+            "image": "/images/apartments/2_room_v1.png"
+        },
+        {
+            "id": 14,
+            "title": "3-комнатная №204",
+            "roomCount": 3,
+            "area": 81.7,
+            "floor": 2,
+            "numberOfFloors": 17,
+            "price": 14700000,
+            "image": "/images/apartments/3_room_v1.png"
+        },
+        {
+            "id": 15,
+            "title": "2-комнатная №205",
+            "roomCount": 2,
+            "area": 60.6,
+            "floor": 2,
+            "numberOfFloors": 17,
+            "price": 11500000,
+            "image": "/images/apartments/2_room_v2.png"
+        },
+        {
+            "id": 16,
+            "title": "3-комнатная №206",
+            "roomCount": 3,
+            "area": 71.7,
+            "floor": 2,
+            "numberOfFloors": 17,
+            "price": 12700000,
+            "image": "/images/apartments/3_room_v2.png"
+        },
+        {
+            "id": 21,
+            "title": "1-комнатная №301",
+            "roomCount": 1,
+            "area": 42.6,
+            "floor": 3,
+            "numberOfFloors": 17,
+            "price": 8300000,
+            "image": "/images/apartments/1_room_v1.png"
+        },
+        {
+            "id": 22,
+            "title": "1-комнатная №302",
+            "roomCount": 1,
+            "area": 45,
+            "floor": 3,
+            "numberOfFloors": 17,
+            "price": 8500000,
+            "image": "/images/apartments/1_room_v2.png"
+        },
+        {
+            "id": 23,
+            "title": "2-комнатная №303",
+            "roomCount": 2,
+            "area": 56,
+            "floor": 3,
+            "numberOfFloors": 17,
+            "price": 10900000,
+            "image": "/images/apartments/2_room_v1.png"
+        },
+        {
+            "id": 24,
+            "title": "3-комнатная №304",
+            "roomCount": 3,
+            "area": 81.7,
+            "floor": 3,
+            "numberOfFloors": 17,
+            "price": 14700000,
+            "image": "/images/apartments/3_room_v1.png"
+        },
+        {
+            "id": 25,
+            "title": "2-комнатная №305",
+            "roomCount": 2,
+            "area": 60.6,
+            "floor": 3,
+            "numberOfFloors": 17,
+            "price": 11500000,
+            "image": "/images/apartments/2_room_v2.png"
+        },
+        {
+            "id": 26,
+            "title": "3-комнатная №306",
+            "roomCount": 3,
+            "area": 71.7,
+            "floor": 3,
+            "numberOfFloors": 17,
+            "price": 12700000,
+            "image": "/images/apartments/3_room_v2.png"
+        },
+        {
+            "id": 31,
+            "title": "1-комнатная №401",
+            "roomCount": 1,
+            "area": 42.6,
+            "floor": 4,
+            "numberOfFloors": 17,
+            "price": 8300000,
+            "image": "/images/apartments/1_room_v1.png"
+        },
+        {
+            "id": 32,
+            "title": "1-комнатная №402",
+            "roomCount": 1,
+            "area": 45,
+            "floor": 4,
+            "numberOfFloors": 17,
+            "price": 8500000,
+            "image": "/images/apartments/1_room_v2.png"
+        },
+        {
+            "id": 33,
+            "title": "2-комнатная №403",
+            "roomCount": 2,
+            "area": 56,
+            "floor": 4,
+            "numberOfFloors": 17,
+            "price": 10900000,
+            "image": "/images/apartments/2_room_v1.png"
+        },
+        {
+            "id": 34,
+            "title": "3-комнатная №404",
+            "roomCount": 3,
+            "area": 81.7,
+            "floor": 4,
+            "numberOfFloors": 17,
+            "price": 14700000,
+            "image": "/images/apartments/3_room_v1.png"
+        },
+        {
+            "id": 35,
+            "title": "2-комнатная №405",
+            "roomCount": 2,
+            "area": 60.6,
+            "floor": 4,
+            "numberOfFloors": 17,
+            "price": 11500000,
+            "image": "/images/apartments/2_room_v2.png"
+        },
+        {
+            "id": 36,
+            "title": "3-комнатная №406",
+            "roomCount": 3,
+            "area": 71.7,
+            "floor": 4,
+            "numberOfFloors": 17,
+            "price": 12700000,
+            "image": "/images/apartments/3_room_v2.png"
+        }
+    ]
+}
