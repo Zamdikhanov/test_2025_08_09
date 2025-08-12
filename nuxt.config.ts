@@ -9,6 +9,15 @@ export default defineNuxtConfig({
     nitro: {
         preset: "github_pages",
     },
+    image: {
+        provider: "ipxStatic",
+        dir: "public/images",
+        // ipx: {
+        // Опционально: если нужно переопределить dir для IPX
+        // dir: "public",
+        // Нет прямой опции baseURL для IPX, но app.baseURL применяется глобально
+        // },
+    },
     ssr: false,
 
     modules: [
